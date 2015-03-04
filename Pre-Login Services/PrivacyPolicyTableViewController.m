@@ -29,6 +29,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)doneButton:(id)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+/*
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -42,7 +48,7 @@
     // Return the number of rows in the section.
     return 0;
 }
-
+*/
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
