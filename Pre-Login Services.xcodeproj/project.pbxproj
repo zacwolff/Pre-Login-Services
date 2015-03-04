@@ -14,6 +14,7 @@
 		5E5D04D91AA6EF6200BA2486 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D04D81AA6EF6200BA2486 /* Images.xcassets */; };
 		5E5D04DC1AA6EF6200BA2486 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5D04DA1AA6EF6200BA2486 /* LaunchScreen.xib */; };
 		5E5D04E81AA6EF6200BA2486 /* Pre_Login_ServicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D04E71AA6EF6200BA2486 /* Pre_Login_ServicesTests.m */; };
+		5E5D04F41AA70A6C00BA2486 /* PrivacyPolicyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5D04F31AA70A6C00BA2486 /* PrivacyPolicyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5E5D04E11AA6EF6200BA2486 /* Pre-Login ServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pre-Login ServicesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5D04E61AA6EF6200BA2486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E5D04E71AA6EF6200BA2486 /* Pre_Login_ServicesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pre_Login_ServicesTests.m; sourceTree = "<group>"; };
+		5E5D04F21AA70A6C00BA2486 /* PrivacyPolicyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivacyPolicyTableViewController.h; sourceTree = "<group>"; };
+		5E5D04F31AA70A6C00BA2486 /* PrivacyPolicyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivacyPolicyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				5E5D04D21AA6EF6200BA2486 /* ViewController.h */,
 				5E5D04D31AA6EF6200BA2486 /* ViewController.m */,
 				5E5D04D51AA6EF6200BA2486 /* Main.storyboard */,
+				5E5D04F21AA70A6C00BA2486 /* PrivacyPolicyTableViewController.h */,
+				5E5D04F31AA70A6C00BA2486 /* PrivacyPolicyTableViewController.m */,
 				5E5D04D81AA6EF6200BA2486 /* Images.xcassets */,
 				5E5D04DA1AA6EF6200BA2486 /* LaunchScreen.xib */,
 				5E5D04CB1AA6EF6200BA2486 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				5E5D04D41AA6EF6200BA2486 /* ViewController.m in Sources */,
 				5E5D04D11AA6EF6200BA2486 /* AppDelegate.m in Sources */,
+				5E5D04F41AA70A6C00BA2486 /* PrivacyPolicyTableViewController.m in Sources */,
 				5E5D04CE1AA6EF6200BA2486 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
